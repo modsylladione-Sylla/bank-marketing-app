@@ -136,4 +136,4 @@ if submitted:
                    "cette prédiction n'est pas utilisable avant de contacter le client.")
 
 st.markdown("---")
-st.caption("Le seuil de décision a été choisi pour minimiser un coût métier "
+st.caption("Le seuil de décision a été choisi pour minimiser un coût métier (appel inutile vs souscription manquée), pas à 50 %.")
