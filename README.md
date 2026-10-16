@@ -3,7 +3,7 @@
 
 Mini-projet de data science : prédire si un client d'une banque va souscrire à un **dépôt à terme** après un appel de télémarketing, puis exposer le modèle dans une application web Streamlit.
 
-**Application en ligne** : <https://TON-APP.streamlit.app> *(à remplacer par ton lien)*
+**Application en ligne** : https://bank-marketing-app-jtcabjutz8sv9xo6stg9e2.streamlit.app/
 
 ## Résumé
 
@@ -47,7 +47,6 @@ Comparaison avec des stratégies naïves (jeu de test : 928 souscripteurs, 7 310
 | N'appeler personne | 928 000 |
 | **Modèle, seuil 0,28** | **702 500** |
 
-AUC ROC : … | AUC PR : … *(à reprendre de la cellule « Évaluation finale » du notebook)*
 
 **Lecture**
 - Le coût varie peu entre 0,20 et 0,40 (moins de 5 % d'écart) : le choix du seuil est peu sensible, l'optimum se situe entre 0,2 et 0,3.
@@ -67,7 +66,7 @@ AUC ROC : … | AUC PR : … *(à reprendre de la cellule « Évaluation finale 
 ## Lancer le projet en local
 
 ```bash
-git clone https://github.com/TON-UTILISATEUR/TON-DEPOT.git
+git clone https://github.com/modsylladione-Sylla/bank-marketing-app.git
 cd TON-DEPOT
 pip install -r requirements.txt
 streamlit run app.py
